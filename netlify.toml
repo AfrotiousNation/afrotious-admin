@@ -1,6 +1,9 @@
 [build]
-  publish = "/"
   command = ""
+  publish = "/"
+
+[build.environment]
+  NODE_VERSION = "22"
 
 [functions]
-  directory = "functions"
+  directory = "netlify/functions"
